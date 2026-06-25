@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rental Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Laptop Rental Service</h1>
+    </header>
+
+    <section id="rental-form">
+        <h1>Rent a Laptop</h1>
+        <form id="rent-form">
+            <label for="laptop_name">Laptop Name:</label>
+            <input type="text" id="laptop_name" name="laptop_name" required><br><br>
+
+            <label for="days">Rental Duration (Days):</label>
+            <input type="number" id="days" name="days" required><br><br>
+
+            <button type="submit">Rent Laptop</button>
+        </form>
+        <p id="success-message" style="color: green;"></p>
+        <p id="error-message" style="color: red;"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Laptop Rental Service</p>
+    </footer>
+    <script src="rental_form.js"></script>
+
+</body>
+</html>

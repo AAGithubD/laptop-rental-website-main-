@@ -1,0 +1,65 @@
+/* Catalog Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+#laptop-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#laptop-list li {
+    width: 30%;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#laptop-list li img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#laptop-list li h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+#laptop-list li p {
+    font-size: 1rem;
+    color: #666;
+}
+
+#laptop-list li .rent-now {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+
+#laptop-list li .rent-now:hover {
+    background-color: #45a049;
+}
